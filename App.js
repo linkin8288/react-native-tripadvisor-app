@@ -13,8 +13,6 @@ import ItemScreen from './screens/ItemScreen';
 // Click one button on Home can lead to Discover to the Paris,
 // Click the picture of the Pairs attractions of Discover page can bring to detailed page of each attractions.
 
-
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
