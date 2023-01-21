@@ -4,6 +4,10 @@ import { useNavigation } from '@react-navigation/native';
 import { HeroImage } from '../assets';
 import * as Animatable from 'react-native-animatable';
 
+// 3 screens in total, one is Home, second is Discover, third is ItemScreen,
+// Click one button on Home can lead to Discover to the Paris,
+// Click the picture of the Pairs attractions of Discover page can bring to detailed page of each attractions.
+
 // SafeAreaView is mobile view, its purpose is to make sure the component 
 // is within the view
 // OnPress is clicable function on mobile, onClick is web function

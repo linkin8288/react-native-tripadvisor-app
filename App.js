@@ -7,6 +7,14 @@ import HomeScreen from './screens/HomeScreen';
 import Discover from './screens/Discover';
 import ItemScreen from './screens/ItemScreen';
 
+// This app uses dynamically routing of Tripadvisor API and Google search
+
+// 3 screens in total, one is Home, second is Discover, third is ItemScreen,
+// Click one button on Home can lead to Discover to the Paris,
+// Click the picture of the Pairs attractions of Discover page can bring to detailed page of each attractions.
+
+
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
